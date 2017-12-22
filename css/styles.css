@@ -586,33 +586,33 @@ a.fa.fa-angle-down:focus {
     text-decoration: none;
 }
 
-/* ======= mission ======= */
+/* ======= ABOUT ======= */
 
-#mission {
+#about {
     padding-top: 90px;
     padding-bottom: 100px;
 }
 
-#mission img#prof-pic {
+#about img#prof-pic {
     width: 170px;
     height: auto;
 }
 
-#mission p {
+#about p {
     font-size: 16px;
     max-width: 650px;
     margin: 30px auto;
 }
 
-#mission a {
+#about a {
     font-weight: 500;
 }
 
-#mission img {
+#about img {
     border-radius: 50%;
 }
 
-#mission #tl-dr {
+#about #tl-dr {
     background: #ccc;
     color: #555;
     text-align: center;
@@ -623,21 +623,21 @@ a.fa.fa-angle-down:focus {
     max-width: 650px;
 }
 
-#mission #tl-dr h3 {
+#about #tl-dr h3 {
     font-weight: 300;
     font-size: 22px;
     margin-bottom: 40px;
     color: #111;
 }
 
-#mission #tl-dr h4 {
+#about #tl-dr h4 {
     font-weight: 300;
     font-size: 17px;
     margin-bottom: 20px;
     text-transform: capitalize;
 }
 
-#mission #tl-dr h5 {
+#about #tl-dr h5 {
     font-weight: 300;
     font-size: 14px;
     font-family: 'Roboto Slab', sans-serif;
@@ -664,40 +664,40 @@ a.fa.fa-angle-down:focus {
 }
 
 @media screen and (max-width: 1100px) {
-    #mission #tl-dr {
+    #about #tl-dr {
         width: 70%;
     }
 }
 
 @media screen and (max-width: 990px) {
-    #mission #tl-dr h3 {
+    #about #tl-dr h3 {
         font-size: 18px;
     }
 }
 
 @media screen and (max-width: 770px) {
-    #mission #tl-dr h3 {
+    #about #tl-dr h3 {
         font-size: 16px;
     }
-    #mission #tl-dr h4 {
+    #about #tl-dr h4 {
         font-size: 14px;
     }
-    #mission #tl-dr h5 {
+    #about #tl-dr h5 {
         font-size: 12px;
     }
 }
 
 @media screen and (max-width: 600px) {
-    #mission #tl-dr {
+    #about #tl-dr {
         padding: 30px 0;
     }
-    #mission #tl-dr h5 {
+    #about #tl-dr h5 {
         font-size: 11px;
     }
 }
 
 @media screen and (max-width: 500px) {
-    #mission {
+    #about {
         padding: 60px 10px;
     }
     .tldr-icon {
@@ -709,10 +709,10 @@ a.fa.fa-angle-down:focus {
 }
 
 @media screen and (max-width: 480px) {
-    #mission img#prof-pic {
+    #about img#prof-pic {
         width: 150px;
     }
-    #mission #tl-dr {
+    #about #tl-dr {
         width: 90%;
     }
     h2 {
@@ -724,12 +724,12 @@ a.fa.fa-angle-down:focus {
 }
 
 @media screen and (max-width: 360px) {
-    #mission #tl-dr {
+    #about #tl-dr {
         padding: 20px 0;
         height: 180px;
         width: 95%;
     }
-    #mission #tl-dr h4 {
+    #about #tl-dr h4 {
         margin-bottom: 5px;
     }
 
@@ -738,25 +738,25 @@ a.fa.fa-angle-down:focus {
     }
 }
 
-/* ======= howitworks ======= */
+/* ======= SERVICES ======= */
 
-#howitworks {
+#services {
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: #ccc;
 }
 
-#howitworks h3 {
+#services h3 {
     font-weight: 400;
 }
 
-#howitworks p {
+#services p {
     font-size: 16px;
     margin: 0px auto 40px auto;
     max-width: 80%;
 }
 
-#howitworks a {
+#services a {
     font-weight: 500;
 }
 
@@ -790,21 +790,171 @@ a.fa.fa-angle-down:focus {
 }
 
 @media screen and (max-width: 480px) {
-    #howitworks {
+    #services {
         padding: 60px 10px;
     }
-    #howitworks h3 {
+    #services h3 {
         margin-bottom: 20px;
     }
-    #howitworks p {
+    #services p {
         font-size: 14px;
         max-width: 100%;
     }
 }
 
-/* ======= whitepage ======= */
+/* ======= EXPERIENCE ======= */
 
-#whitepage {
+#experience {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #fff;
+}
+
+#experience p {
+    font-size: 18px;
+    padding-bottom: 40px;
+    max-width: 600px;
+    margin: 0px auto;
+}
+
+.skills {
+    margin-top: 50px;
+}
+
+
+.skills-section h3 {
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0 0 50px;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+    .skills-section h3 {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 16px;
+    }
+}
+
+.skills-section .skill-icon {
+    padding-bottom: 15px;
+    height: 120px;
+}
+
+@media screen and (max-width: 360px) {
+    .skills-section .skill-icon {
+        padding-bottom: 0;
+        height: 100px;
+    }
+}
+
+.skills-section .skill-icon img {
+    margin: 0 auto;
+    width: 75px;
+    height: auto;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+
+.skills-section .skill-icon img:hover {
+    -webkit-filter: none;
+    filter: none;
+}
+
+@media screen and (min-width: 450px) {
+    .skills-section .skill-icon img#html {
+        width: 55px;
+    }
+    .skills-section .skill-icon img#css {
+        width: 55px;
+    }
+    .skills-section .skill-icon img#sass {
+        margin-top: 15px;
+    }
+    .skills-section .skill-icon img#js {
+        width: 55px;
+    }
+    .skills-section .skill-icon img#node {
+        width: 100px;
+    }
+}
+
+@media screen and (min-width: 985px) {
+    .skills-section .skill-icon img#node {
+        margin-top: -10px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .skills-section .skill-icon img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.section .overlay-wrapper .divider,
+.section .section-wrapper .divider {
+    display: block;
+    margin: 30px 0;
+    width: 100px;
+    height: 2px;
+    background-color: #00b7c7
+}
+
+.section .overlay-wrapper .center,
+.section .section-wrapper .center {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center
+}
+
+.section .overlay-wrapper {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .61), rgba(0, 0, 0, .61), rgba(0, 0, 0, .61), rgba(0, 0, 0, .61), rgba(0, 0, 0, .61));
+    width: 100%;
+    height: 100%
+}
+
+.employment h3 {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .skills-bar-container {
+        width: 100%;
+        min-width: 100px;
+    }
+    .employment h3 {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #experience {
+        padding: 60px 0px;
+    }
+    #experience p {
+        padding-bottom: 20px;
+    }
+    .skills,
+    .employment {
+        display: block;
+        width: 100%;
+    }
+}
+
+/* ======= RESUME ======= */
+
+#resume {
     background: url(../img/desktop.jpg);
     background-size: cover;
     background-position: center;
@@ -814,7 +964,7 @@ a.fa.fa-angle-down:focus {
     color: #fff;
 }
 
-#whitepage .overlay {
+#resume .overlay {
     background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
     /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.8)), color-stop(17%, rgba(0, 0, 0, 0.73)), color-stop(35%, rgba(0, 0, 0, 0.66)), color-stop(62%, rgba(0, 0, 0, 0.55)), color-stop(100%, rgba(0, 0, 0, 0.4)));
@@ -833,11 +983,11 @@ a.fa.fa-angle-down:focus {
     background-attachment: fixed;
 }
 
-#whitepage h2 {
+#resume h2 {
     color: #fff;
 }
 
-a.whitepage-btn {
+a.resume-btn {
     background: none;
     display: inline-block;
     padding: 10px 20px;
@@ -853,49 +1003,49 @@ a.whitepage-btn {
     transition: all .3s ease-in-out
 }
 
-a.whitepage-btn:hover,
-a.whitepage-btn:active {
+a.resume-btn:hover,
+a.resume-btn:active {
     color: #fff;
     border: 2px solid #ccc;
     background-color: rgba(254, 254, 254, 0.2);
     padding: 10px 30px;
 }
 
-/* ======= team ======= */
+/* ======= PORTFOLIO ======= */
 
-#team {
+#portfolio {
     padding-top: 90px;
     padding-bottom: 100px;
     background: #fff;
 }
 
-#team * {
+#portfolio * {
     z-index: 2;
 }
 
-#team .team-row {
+#portfolio .portfolio-row {
     margin-left: 50px;
     margin-right: 50px;
 }
 
 @media (max-width: 950px) {
-    #team .team-row {
+    #portfolio .portfolio-row {
         margin-left: 0px;
         margin-right: 0px;
     }
 }
 
-#team .section-heading {
+#portfolio .section-heading {
     padding-bottom: 0px;
     margin-bottom: 20px;
 }
 
-#team .coming-soon {
+#portfolio .coming-soon {
     margin-bottom: 50px;
     text-transform: lowercase;
 }
 
-#team .team-item-wrapper {
+#portfolio .portfolio-item-wrapper {
     width: 31%;
     display: inline-block;
     padding: 0 0 5px;
@@ -904,18 +1054,18 @@ a.whitepage-btn:active {
 }
 
 @media (max-width: 950px) {
-    #team .team-item-wrapper {
+    #portfolio .portfolio-item-wrapper {
         width: 47%;
     }
 }
 
 @media (max-width: 630px) {
-    #team .team-item-wrapper {
+    #portfolio .portfolio-item-wrapper {
         width: 100%;
     }
 }
 
-#team .team-item {
+#portfolio .portfolio-item {
     display: block;
     -webkit-box-shadow: rgba(0, 0, 0, 0.148438) 0 1px 2px;
     box-shadow: rgba(0, 0, 0, 0.148438) 0 1px 2px;
@@ -926,7 +1076,7 @@ a.whitepage-btn:active {
     overflow: hidden;
 }
 
-#team .team-item img {
+#portfolio .portfolio-item img {
     max-width: 100%;
     width: 100%;
     opacity: 1.0;
@@ -935,7 +1085,7 @@ a.whitepage-btn:active {
     -webkit-transition: 0.3s ease-in-out;
 }
 
-#team .team-overlay {
+#portfolio .portfolio-overlay {
     position: absolute;
     background-color: rgba(26, 30, 31, 0.85);
     width: 100%;
@@ -943,18 +1093,18 @@ a.whitepage-btn:active {
     opacity: 0;
 }
 
-#team .team-info,
-#team .links,
-#team .links a i,
-#team .links a i::after,
-#team .team-overlay {
+#portfolio .portfolio-info,
+#portfolio .links,
+#portfolio .links a i,
+#portfolio .links a i::after,
+#portfolio .portfolio-overlay {
     -webkit-transition: all 400ms;
     -moz-transition: all 400ms;
     -o-transition: all 400ms;
     transition: all 400ms;
 }
 
-#team .links {
+#portfolio .links {
     width: 40px;
     height: 40px;
     position: absolute;
@@ -971,7 +1121,7 @@ a.whitepage-btn:active {
     transform: translate(0, -50px);
 }
 
-#team .links a i {
+#portfolio .links a i {
     position: relative;
     color: #fff;
     font-size: 24px;
@@ -979,11 +1129,11 @@ a.whitepage-btn:active {
     z-index: 100;
 }
 
-#team .links a:hover i {
+#portfolio .links a:hover i {
     color: #fff;
 }
 
-#team .links a i::after {
+#portfolio .links a i::after {
     position: absolute;
     content: "";
     left: -7px;
@@ -994,7 +1144,7 @@ a.whitepage-btn:active {
     border-radius: 50%;
 }
 
-#team .team-info {
+#portfolio .portfolio-info {
     position: absolute;
     bottom: -100%;
     left: 0;
@@ -1005,8 +1155,8 @@ a.whitepage-btn:active {
     text-align: center;
 }
 
-#team .team-item:hover .team-overlay,
-#team .team-item:hover .links {
+#portfolio .portfolio-item:hover .portfolio-overlay,
+#portfolio .portfolio-item:hover .links {
     opacity: 1;
     -webkit-transform: translate(0, 0);
     -moz-transform: translate(0, 0);
@@ -1015,11 +1165,11 @@ a.whitepage-btn:active {
     transform: translate(0, 0);
 }
 
-#team .team-item:hover .team-info {
+#portfolio .portfolio-item:hover .portfolio-info {
     bottom: 0;
 }
 
-#team .team-info h3 {
+#portfolio .portfolio-info h3 {
     font-size: 14px;
     line-height: 45px;
     font-weight: 400;
@@ -1425,7 +1575,7 @@ ul.social-buttons li a:active {
 }
 
 
-/* ============== team MODALS ============== */
+/* ============== PORTFOLIO MODALS ============== */
 
 .modal-header,
 .modal-footer {
