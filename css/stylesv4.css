@@ -390,8 +390,8 @@ left: 0px;
 
 @media screen and (max-width:480px) {
     .logo{
-        width: 25;
-        height: 25
+        width: 25px;
+        height: 25px;
     }
     .switch-wrapper {
         top: 10px;
@@ -481,8 +481,8 @@ left: 0px;
         padding: 120px 70px
     }
     .logo {
-        width: 25;
-        height: 25
+        width: 25px;
+        height: 25px
     }
 }
 
@@ -491,8 +491,8 @@ left: 0px;
         padding: 120px 50px
     }
     .logo {
-        width: 25;
-        height: 25
+        width: 25px;
+        height: 25px
     }
 }
 
@@ -501,8 +501,8 @@ left: 0px;
         padding: 70px 50px
     }
     .logo {
-        width: 25;
-        height: 25
+        width: 25px;
+        height: 25px
     }
 }
 
@@ -523,12 +523,20 @@ left: 0px;
     .intro__tagline {
         font-size: 2rem
     }
+    .logo {
+        width: 25px;
+        height: 25px
+    }
 }
 
 @media screen and (max-width:550px) {
     .intro__hello,
     .intro__tagline {
         font-size: 1.75rem
+    }
+    .logo {
+        width: 25px;
+        height: 25px
     }
 }
 
@@ -537,12 +545,20 @@ left: 0px;
     .intro__tagline {
         font-size: 1.5rem
     }
+    .logo {
+        width: 25px;
+        height: 25px
+    }
 }
 
 @media screen and (max-width:330px) {
     .intro__hello,
     .intro__tagline {
         font-size: 1.4rem
+    }
+    .logo {
+        width: 25px;
+        height: 25px
     }
 }
 
