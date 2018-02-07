@@ -99,7 +99,7 @@ html.night .section__content .underline-link:after {
 }
 
 body .emoji,
-html .emoji {
+html .emoji{
     display: inline-block;
     vertical-align: text-top;
     background-size: contain;
@@ -1090,6 +1090,15 @@ left: 0px;
 .footer__copyright {
     font-weight: 700;
     width: 200px
+}
+
+.bottom .logo2{
+    background-image: url(../img/logo2.png);
+    float: right    ;
+    width: 25px;
+    height: 25px;
+    vertical-align: text-bottom;
+    background-size: 100%;
 }
 
 @media screen and (max-width:630px) {
