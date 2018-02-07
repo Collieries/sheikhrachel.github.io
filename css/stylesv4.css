@@ -390,8 +390,8 @@ left: 0px;
 
 @media screen and (max-width:480px) {
     .logo{
-        width: 25px;
-        height: 25px;
+        width: 75px;
+        height: 75px;
     }
     .switch-wrapper {
         top: 10px;
@@ -481,8 +481,8 @@ left: 0px;
         padding: 120px 70px
     }
     .logo {
-        width: 25px;
-        height: 25px
+        width: 80px;
+        height: 80px
     }
 }
 
@@ -491,8 +491,8 @@ left: 0px;
         padding: 120px 50px
     }
     .logo {
-        width: 25px;
-        height: 25px
+        width: 80px;
+        height: 80px
     }
 }
 
@@ -501,8 +501,8 @@ left: 0px;
         padding: 70px 50px
     }
     .logo {
-        width: 25px;
-        height: 25px
+        width: 75px;
+        height: 75px
     }
 }
 
@@ -524,8 +524,8 @@ left: 0px;
         font-size: 2rem
     }
     .logo {
-        width: 25px;
-        height: 25px
+        width: 80px;
+        height: 80px
     }
 }
 
@@ -535,8 +535,8 @@ left: 0px;
         font-size: 1.75rem
     }
     .logo {
-        width: 25px;
-        height: 25px
+        width: 80px;
+        height: 80px
     }
 }
 
@@ -546,8 +546,8 @@ left: 0px;
         font-size: 1.5rem
     }
     .logo {
-        width: 25px;
-        height: 25px
+        width: 75px;
+        height: 75px
     }
 }
 
@@ -557,8 +557,8 @@ left: 0px;
         font-size: 1.4rem
     }
     .logo {
-        width: 25px;
-        height: 25px
+        width: 75px;
+        height: 75px
     }
 }
 
@@ -575,8 +575,8 @@ left: 0px;
         height: 35px
     }
 .logo {
-    width: 25px;
-    height: 25px
+    width: 85px;
+    height: 85px
 }
 }
 
@@ -587,8 +587,8 @@ left: 0px;
         height: 30px
     }
 .logo {
-    width: 25px;
-    height: 25px
+    width: 80px;
+    height: 80px
 }
 }
 
@@ -599,8 +599,8 @@ left: 0px;
         height: 25px
     }
 .logo {
-    width: 25px;
-    height: 25px
+    width: 75px;
+    height: 75px
 }
 }
 
