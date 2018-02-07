@@ -366,7 +366,7 @@ justify-content: left;
 align-items: left;
 position: absolute;
 top: 0px;
-left: 00px;
+left: 0px;
     width: 200px;
     height: 200px;
     background-image: url(../img/logo2.png);
@@ -389,6 +389,10 @@ left: 00px;
 }
 
 @media screen and (max-width:480px) {
+    .logo{
+        width: 25;
+        height: 25;
+    }
     .switch-wrapper {
         top: 10px;
         right: 20px
