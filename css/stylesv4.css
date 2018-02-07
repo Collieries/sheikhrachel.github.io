@@ -391,15 +391,12 @@ left: 0px;
 @media screen and (max-width:480px) {
     .logo{
         width: 25;
-        height: 25;
+        height: 25
     }
     .switch-wrapper {
         top: 10px;
         right: 20px
     }
-}
-
-.switch-wrapper .logo{
 }
 
 .switch-wrapper .moon,
@@ -483,17 +480,29 @@ left: 0px;
     .intro {
         padding: 120px 70px
     }
+    .logo {
+        width: 25;
+        height: 25
+    }
 }
 
 @media screen and (max-width:550px) {
     .intro {
         padding: 120px 50px
     }
+    .logo {
+        width: 25;
+        height: 25
+    }
 }
 
 @media screen and (max-width:480px) {
     .intro {
         padding: 70px 50px
+    }
+    .logo {
+        width: 25;
+        height: 25
     }
 }
 
