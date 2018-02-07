@@ -354,6 +354,25 @@ html #top-button img {
     transform: translateZ(0)
 }
 
+.logo{
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: left;
+-ms-flex-pack: left;
+justify-content: left;
+-webkit-box-align: left;
+-ms-flex-align: left;
+align-items: left;
+position: absolute;
+top: 0px;
+left: 00px;
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/logo2.png);
+    background-size: 100%
+}
+
 .switch-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -374,6 +393,9 @@ html #top-button img {
         top: 10px;
         right: 20px
     }
+}
+
+.switch-wrapper .logo{
 }
 
 .switch-wrapper .moon,
