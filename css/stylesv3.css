@@ -210,7 +210,8 @@ ul {
 
 #dot-nav a {
     display: inline-block;
-    -webkit-backface-visibility: hidden
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
 }
 
 #dot-nav a::after {
@@ -221,7 +222,6 @@ ul {
 
 #dot-nav a span {
     float: right;
-    display: inline-block;
     transform: scale(.6)
 }
 
@@ -811,7 +811,6 @@ ul {
 }
 
 #about-section .about-wrapper .headshot {
-    display: inline-block;
     width: 35%;
     height: auto;
     border-radius: 50%;
@@ -2307,5 +2306,4 @@ ul {
 
 .four-oh-four canvas {
     display: block;
-    vertical-align: bottom
 }
