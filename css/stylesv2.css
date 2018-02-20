@@ -17,7 +17,6 @@ body {
     background-color: #FFF;
     margin: 0px auto;
     position: relative;
-    font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     -webkit-font-smoothing: antialiased;
     -webkit-font-smoothing: subpixel-antialiased;
@@ -377,9 +376,7 @@ a.active {
 /*Navbar Logo Image*/
 
 .navbar-custom a img {
-    width: 25px;
     display: inline;
-    margin-top: -5px;
     margin-right: 15px;
 }
 
@@ -770,12 +767,10 @@ a.fa.fa-angle-down:focus {
     -moz-border-radius: 50%;
     -o-border-radius: 50%;
     border-radius: 50%;
-    display;
-    block;
+    display: block;
     color: #FFF;
     font-size: 55px;
     text-align: center;
-    vertical-align: middle;
     position: relative;
     margin: 0 auto 40px;
 }
@@ -1430,8 +1425,6 @@ footer h3 {
     font-weight: 300;
 }
 
-ul.social-buttons {}
-
 ul.social-buttons li a {
     display: block;
     width: 50px;
@@ -1484,17 +1477,6 @@ ul.social-buttons li a:active {
 
 .list-inline>li {
     padding: 0px !important;
-}
-
-#facebook,
-#twitter,
-#instagram,
-#linkedin,
-#codepen,
-#github,
-#pinterest,
-#spotify {
-    /*border: 1px solid #fff !important;*/
 }
 
 #facebook:hover {
@@ -1682,8 +1664,4 @@ img::selection {
 
 img::-moz-selection {
     background: 0 0;
-}
-
-body {
-    webkit-tap-highlight-color: #fed136;
 }

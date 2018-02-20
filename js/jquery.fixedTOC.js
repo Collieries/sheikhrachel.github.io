@@ -2,7 +2,7 @@
     $.fixedTOC = function (el, settings) {
 
         var base = this,
-               s = null;
+            s = null;
 
         base.$el = $(el);
         base.el = el;
@@ -18,7 +18,7 @@
 
         base.methods = {
 
-            init : function () {
+            init: function () {
 
                 // Put your initialization code here
 
@@ -33,10 +33,10 @@
 
             },
 
-            doOpenMenu : function () {
+            doOpenMenu: function () {
 
                 s.tocLink.on(s.menuOpens, function () {
-				
+
                     if (base.$el.hasClass(s.tocUpClass)) {
 
                         s.tocLink.find('span').addClass('rotate');
@@ -67,7 +67,7 @@
 
             },
 
-            doOpenItem : function () {
+            doOpenItem: function () {
 
                 $('.toc-h1>a, .toc-sub a').on('click', function () {
 
@@ -80,7 +80,7 @@
 
             },
 
-            grabHash : function () {
+            grabHash: function () {
 
                 if (location.hash) {
                     s.currHash = location.hash;
@@ -89,7 +89,7 @@
 
             },
 
-            doLocate : function () {
+            doLocate: function () {
 
                 $(s.tocLinks).on('click', function () {
 
@@ -102,24 +102,23 @@
 
             },
 
-            doScroll : function (h) {
+            doScroll: function (h) {
 
                 s.currHash = h;
 
                 $('html, body').animate({
-                        scrollTop: $(s.currHash).offset().top - 80
-                    }, s.scrollSpeed, function () {
-                        if (history.pushState) {
-                            history.pushState(null, null, s.currHash);
-                        }
-                        else {
-                            location.hash = s.currHash;
-                        }
-                    });
+                    scrollTop: $(s.currHash).offset().top - 80
+                }, s.scrollSpeed, function () {
+                    if (history.pushState) {
+                        history.pushState(null, null, s.currHash);
+                    } else {
+                        location.hash = s.currHash;
+                    }
+                });
 
             },
 
-            doCloseMenu : function () {
+            doCloseMenu: function () {
 
                 $('#toc-holder').on('mouseleave', function () {
 
@@ -139,7 +138,7 @@
 
             },
 
-            doTopLink : function () {
+            doTopLink: function () {
 
                 $(s.topLink).on('click', function () {
 
@@ -175,20 +174,20 @@
 
     $.fixedTOC.defaultSettings = {
         // non-customizable settings
-        tocHeight        : null,
-        tocSub           : $('.toc-sub'),
-        tocUpClass       : 'toc-up',
-        tocLink          : $('#toc-link'),
-        tocLinks         : '.toc-h1 ul a',
-        topLink          : $('#top-link'),
-        currHash         : null,
+        tocHeight: null,
+        tocSub: $('.toc-sub'),
+        tocUpClass: 'toc-up',
+        tocLink: $('#toc-link'),
+        tocLinks: '.toc-h1 ul a',
+        topLink: $('#top-link'),
+        currHash: null,
         // customizable settings
-        menuOpens        : 'click',
-        scrollSpeed      : 1000,
-        menuSpeed        : 300,
-        useSubMenus      : true,
-        resetSubMenus    : true,
-        topLinkWorks     : true
+        menuOpens: 'click',
+        scrollSpeed: 1000,
+        menuSpeed: 300,
+        useSubMenus: true,
+        resetSubMenus: true,
+        topLinkWorks: true
     };
 
     $.fn.fixedTOC = function (settings) {

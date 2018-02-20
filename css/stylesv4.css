@@ -99,7 +99,7 @@ html.night .section__content .underline-link:after {
 }
 
 body .emoji,
-html .emoji {
+html .emoji{
     display: inline-block;
     vertical-align: text-top;
     background-size: contain;
@@ -354,6 +354,25 @@ html #top-button img {
     transform: translateZ(0)
 }
 
+.logo{
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: left;
+-ms-flex-pack: left;
+justify-content: left;
+-webkit-box-align: left;
+-ms-flex-align: left;
+align-items: left;
+position: absolute;
+top: 0px;
+left: 0px;
+    width: 80px;
+    height: 80px;
+    background-image: url(../img/logo2.png);
+    background-size: 100%
+}
+
 .switch-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -370,6 +389,10 @@ html #top-button img {
 }
 
 @media screen and (max-width:480px) {
+    .logo{
+        width: 75px;
+        height: 75px;
+    }
     .switch-wrapper {
         top: 10px;
         right: 20px
@@ -457,17 +480,29 @@ html #top-button img {
     .intro {
         padding: 120px 70px
     }
+    .logo {
+        width: 80px;
+        height: 80px
+    }
 }
 
 @media screen and (max-width:550px) {
     .intro {
         padding: 120px 50px
     }
+    .logo {
+        width: 80px;
+        height: 80px
+    }
 }
 
 @media screen and (max-width:480px) {
     .intro {
         padding: 70px 50px
+    }
+    .logo {
+        width: 75px;
+        height: 75px
     }
 }
 
@@ -488,12 +523,20 @@ html #top-button img {
     .intro__tagline {
         font-size: 2rem
     }
+    .logo {
+        width: 80px;
+        height: 80px
+    }
 }
 
 @media screen and (max-width:550px) {
     .intro__hello,
     .intro__tagline {
         font-size: 1.75rem
+    }
+    .logo {
+        width: 80px;
+        height: 80px
     }
 }
 
@@ -502,12 +545,20 @@ html #top-button img {
     .intro__tagline {
         font-size: 1.5rem
     }
+    .logo {
+        width: 75px;
+        height: 75px
+    }
 }
 
 @media screen and (max-width:330px) {
     .intro__hello,
     .intro__tagline {
         font-size: 1.4rem
+    }
+    .logo {
+        width: 75px;
+        height: 75px
     }
 }
 
@@ -523,6 +574,10 @@ html #top-button img {
         width: 35px;
         height: 35px
     }
+.logo {
+    width: 85px;
+    height: 85px
+}
 }
 
 @media screen and (max-width:768px) {
@@ -531,11 +586,31 @@ html #top-button img {
         width: 30px;
         height: 30px
     }
+.logo {
+    width: 80px;
+    height: 80px
+}
+}
+
+@media screen and (max-width:375px) {
+    .intro__hello .emoji,
+    .intro__tagline .emoji {
+        width: 25px;
+        height: 25px
+    }
+.logo {
+    width: 75px;
+    height: 75px
+}
 }
 
 @media screen and (max-width:360px) {
     .intro__hello .emoji,
     .intro__tagline .emoji {
+        width: 25px;
+        height: 25px
+    }
+    .logo {
         width: 25px;
         height: 25px
     }
@@ -1015,6 +1090,15 @@ html #top-button img {
 .footer__copyright {
     font-weight: 700;
     width: 200px
+}
+
+.bottom .logo2{
+    background-image: url(../img/logo2.png);
+    float: right    ;
+    width: 25px;
+    height: 25px;
+    vertical-align: text-bottom;
+    background-size: 100%;
 }
 
 @media screen and (max-width:630px) {
