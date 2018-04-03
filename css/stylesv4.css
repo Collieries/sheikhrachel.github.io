@@ -19,7 +19,7 @@ body,
 html {
     margin: 0;
     padding: 0;
-    background-color: #fff;
+    background-color: rgb(220, 255, 254);
     color: #444452;
     font-family: Lato, Source Sans Pro, Helvetica, Arial, sans-serif;
     line-height: 1.5
@@ -48,7 +48,7 @@ html strong {
 
 body.night,
 html.night {
-    background-color: #131417;
+    background-color: #0f1011be;
     color: #afafbf
 }
 
