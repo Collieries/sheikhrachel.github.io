@@ -19,7 +19,7 @@ body,
 html {
     margin: 0;
     padding: 0;
-    background-color: rgb(237, 242, 243);
+    background-color: rgb(240, 242, 243);
     color: #444452;
     font-family: Lato, Source Sans Pro, Helvetica, Arial, sans-serif;
     line-height: 1.5
@@ -711,8 +711,8 @@ left: 0px;
     font-weight: 650
 }
 
-.intro__tagline .robot {
-    background-image: url(../img/emojis/robot.png)
+.intro__tagline .phone {
+    background-image: url(../img/emojis/phone.png)
 }
 
 .intro__contact {
